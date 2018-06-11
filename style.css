@@ -265,3 +265,93 @@ body {
 }
 
 /*contact page*/
+.contact-main {
+    width: 750px;
+}
+.content-contact {
+    width: 900px;
+    margin: auto;
+    color: #6d6d6d;
+    font-size: 13px;
+    line-height: 1.2em;
+}
+
+.content-contact::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.sidebar {
+    width: 150px;
+    background-color: pink;
+}
+
+.contact-form { 
+    background-image: url("images/contact_form_bg.png");
+    background-repeat: no-repeat;
+    width: 385px;
+    padding: 15px 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+}
+
+.contact-form h3 {
+    color: #005ca0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.contact-title > h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #72716d;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 3px;
+}
+.cubes {
+    width: 292px;
+    margin-top: 20px;
+}
+.cube {
+    background-image: url("images/cube_bg.png");
+    background-repeat: no-repeat;
+    height: 170px;
+    padding-bottom: 200px;
+}
+
+.cube > h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #005ca0;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+
+.breadcrumbs {
+    color: #5c5c5c;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.breadcrumbs > a {
+    text-decoration: none;
+}
+.breadcrumbs > a:hover {
+    color: #005ca0;
+    text-decoration: underline;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+.contact-title .text-bold {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
