@@ -200,7 +200,7 @@ body {
 
 .dropdown-content > ul {
     list-style: none;
-    width: 200px;
+    width: 150px;
 }
 .dropdown-content > ul > li {
     background-color: rgb(144,144,144);
@@ -219,6 +219,10 @@ body {
     background-color: lightgray;
     text-decoration: underline;
 }
+
+.dropdown:hover > .dropdown-content {
+    display: block;
+  }
 
 .div-small-image {
     width: 292px;
@@ -259,3 +263,5 @@ body {
 .div-map-img {
     padding-left: 20px;
 }
+
+/*contact page*/
