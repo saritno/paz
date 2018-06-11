@@ -24,9 +24,34 @@ body {
     font-size: 14px;
 }
 
+.menu {
+    width: 700px;
+    float: left;
+    padding-top: 25px;
+    /*top: -70px;
+    right: 150px;*/
+}
+
+.menu > ul > li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 10px;
+    border-right: 2px solid lightgray;
+}
+
+.menu > ul > li > a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    border: 0px;
+}
+
 .logo {
-    position: relative;
-    top: -10px;
+    float: right;
 }
 
 .container-header, .container-footer {
@@ -124,7 +149,7 @@ body {
 .large-images > .div-left > a > img {
     border-bottom-right-radius: 20px;
 }
-.search-bar::after, .large-images::after, .small-images::after, .footer::after, .map-content::after{
+.container-header::after, .search-bar::after, .large-images::after, .small-images::after, .footer::after, .map-content::after{
     clear: both;
     content: "";
     display: block;
@@ -164,7 +189,6 @@ body {
 
 .dropdown-content {
     position: absolute;
-    display: none;
 }
 
 .div-small-image {
