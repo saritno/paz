@@ -159,5 +159,21 @@ body {
 }
 
 .div-small-image {
-    
+    width: 291px;
+    background-image: url("images/small_cube_bg.png")
+}
+
+.div-small-image > .title {
+    width: 250px;
+    margin: auto;
+}
+
+.div-small-image > .title > h4 {
+    color:#444;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold
+}
+.small-cube-content {
+    margin: auto;
 }
