@@ -80,7 +80,7 @@ body {
 
 .div-text-gray {
     border-bottom-right-radius: 20px;
-    background-color: rgba(144, 144, 144, 0.9);
+    background-color: rgba(130, 130, 130, 0.9);
     position: absolute;
     top: 250px;
     width: 250px;
@@ -99,7 +99,7 @@ body {
 .div-text-gray > p {
     line-height: 1.1em;
 }
-.div-text-gray > .read-more {
+.div-text-gray > .read-more, .div-small-image > .div-small-image-content > .read-more {
     text-align: left;
 }
 
@@ -110,15 +110,21 @@ body {
 .div-text-gray > .read-more > a {
     color: white;
 }
-
-.div-text-gray > .read-more > a:hover {
+.div-small-image > .div-small-image-content > .read-more {
+    padding: 10px 0 20px 25px;
+}
+.div-small-image > .div-small-image-content > .read-more > a {
+    color: #444;
+    font-size: 13px;
+} 
+.div-text-gray > .read-more > a:hover, .div-small-image > .div-small-image-content > .read-more >a:hover{
     color: midnightblue;
 }
 
 .large-images > .div-left > a > img {
     border-bottom-right-radius: 20px;
 }
-.search-bar::after, .large-images::after, .small-images::after, .footer::after{
+.search-bar::after, .large-images::after, .small-images::after, .footer::after, .map-content::after{
     clear: both;
     content: "";
     display: block;
@@ -128,6 +134,9 @@ body {
     float: left;
 }
 
+.div-right {
+    float: right;
+}
 .middle {
     margin-left: 10px;
     margin-right: 10px;
@@ -159,7 +168,8 @@ body {
 }
 
 .div-small-image {
-    width: 291px;
+    width: 292px;
+    margin-top: 15px;
     background-image: url("images/small_cube_bg.png")
 }
 
@@ -176,4 +186,23 @@ body {
 }
 .small-cube-content {
     margin: auto;
+    width: 250px;
+}
+
+.small-cube-content > a > img {
+    padding-top: 10px;
+}
+
+.links {
+    padding: 20px 25px 0 0;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+.links > a {
+    display: block;
+    color: #444;
+}
+
+.div-map-img {
+    padding-left: 20px;
 }
